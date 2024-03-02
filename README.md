@@ -47,6 +47,9 @@ docker exec -d -w /code modelv1 python main.py
 docker exec -d -w /code modelv1 uvicorn main:app --proxy-headers --host 0.0.0.0 --port 8005
 
 
+
+
+
 ```
 
 # Installation of Jenkins
